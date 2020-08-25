@@ -80,6 +80,7 @@ class Memory extends Component {
                 nbrClicks: 2
             });
             if (this.cards.cardsHaveSameImage(id, this.state.firstId)) {
+                // success step
                 this.cards.cardMatched(this.state.firstId, true);
                 this.cards.cardMatched(id, true);
                 this.setState({
@@ -90,6 +91,7 @@ class Memory extends Component {
                     nbrClicks: 0
                 });
             } else {
+                // hide after 5s
                 this.timeout = setTimeout(() => {
                     this.clearBoard();
                 }, 5000);
