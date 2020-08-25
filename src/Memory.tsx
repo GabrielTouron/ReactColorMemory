@@ -14,6 +14,7 @@ class Memory extends Component {
     constructor(props: {}) {
         super(props);
         this.onCardClicked = this.onCardClicked.bind(this);
+        this.onPlayAgain = this.onPlayAgain.bind(this);
         this.cards = new Cards();
     }
 
@@ -96,6 +97,10 @@ class Memory extends Component {
         }
     }
 
+    onPlayAgain() {
+        this.boardCreation();
+    }
+
     render() {
         const cardViews = this.getCardsViews();
         let gameStat = <div className='memory-status'>
@@ -107,6 +112,7 @@ class Memory extends Component {
             gameStat = <div className='memory-status'>
                 <div>GAGNÉ <span role="img" aria-label=''>🏅🏅🏅</span> !</div>
                 <div> En {this.state?.round - 1} tours !</div>
+                <div><button className='btn' onClick={this.onPlayAgain}>Jouer encore ?</button></div>
             </div>
         }
 
