@@ -46,3 +46,22 @@
     margin: 2rem 28%;
 }
 
+.btn {
+    background-color: #ee6e73;
+    width: 260px;
+    height: 70px;
+    margin: 10px;
+    padding: 0;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    
+  }
+  
