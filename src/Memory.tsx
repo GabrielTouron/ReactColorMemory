@@ -12,7 +12,6 @@ class Memory extends Component {
     timeout: any;
     isLooser = 25;
 
-
     constructor(props: {}) {
         super(props);
         this.onCardClicked = this.onCardClicked.bind(this);
@@ -125,22 +124,20 @@ class Memory extends Component {
         } else if (this.state?.round >= this.isLooser) {
             gameStat = <div className='memory-status'>
                 <div>PERDU <span role="img" aria-label=''>😞😞😞</span> !</div>
+
                 <div><button className='btn' onClick={this.onPlayAgain}>Jouer encore ?</button></div>
             </div>
         }
-
-
+            
         return (
             <div className='memory'>
                 <header className='memory-header'>
                     <div className='memory-title'>Colors Memory en React</div>
                     <p>Vous devez réussir en moins de 25 tours !</p>
+
                 </header>
                 <div>
                     {gameStat}
-                </div>
-                <div>
-
                 </div>
                 <div className='card-container'>
                     {cardViews}
@@ -148,7 +145,6 @@ class Memory extends Component {
             </div>
         );
     }
-
 }
 
 export default Memory;

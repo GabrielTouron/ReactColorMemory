@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**_NOTE:_** Consigne :
+- Le projet est à réaliser en ReactJS (Typescript suggéré)
+- Memory
+On doit pouvoir jouer au memory, il doit y avoir une condition de victoire et une condition de défaite.
+
 ## Available Scripts
 
 In the project directory, you can run:
