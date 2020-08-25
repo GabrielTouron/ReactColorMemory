@@ -105,7 +105,7 @@ class Memory extends Component {
 
         if (this.state?.pairsFound === this.cards.NUM_IMAGES) {
             gameStat = <div className='memory-status'>
-                <div>GAGNÉ <span>🏅🏅🏅</span> !</div>
+                <div>GAGNÉ <span role="img" aria-label=''>🏅🏅🏅</span> !</div>
                 <div> En {this.state?.round - 1} tours !</div>
             </div>
         }
