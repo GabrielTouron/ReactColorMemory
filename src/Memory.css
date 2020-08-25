@@ -1,0 +1,48 @@
+.memory {
+    text-align: center;
+}
+  
+.memory-header {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+  
+.memory-title {
+    font-size: 1.5em;
+}
+  
+.memory-status {
+    padding: 20px;
+}
+
+.memory-status div {
+    padding-bottom: 0.5rem;
+}
+
+.card {
+    display: inline-block;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.matched {
+    border-color: #55cc88;
+    opacity: 0.33;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: ". . . ." ". . . .";
+    margin: 2rem 28%;
+}
+
