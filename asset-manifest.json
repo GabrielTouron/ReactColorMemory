@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hellia-rh-test-technique-3/static/css/main.2334508b.chunk.css",
+    "main.js": "/hellia-rh-test-technique-3/static/js/main.7cee5c6f.chunk.js",
+    "main.js.map": "/hellia-rh-test-technique-3/static/js/main.7cee5c6f.chunk.js.map",
+    "runtime-main.js": "/hellia-rh-test-technique-3/static/js/runtime-main.013cd739.js",
+    "runtime-main.js.map": "/hellia-rh-test-technique-3/static/js/runtime-main.013cd739.js.map",
+    "static/js/2.c9f0d68c.chunk.js": "/hellia-rh-test-technique-3/static/js/2.c9f0d68c.chunk.js",
+    "static/js/2.c9f0d68c.chunk.js.map": "/hellia-rh-test-technique-3/static/js/2.c9f0d68c.chunk.js.map",
+    "index.html": "/hellia-rh-test-technique-3/index.html",
+    "precache-manifest.c9844da8444bbb9de01b1e85f64bd990.js": "/hellia-rh-test-technique-3/precache-manifest.c9844da8444bbb9de01b1e85f64bd990.js",
+    "service-worker.js": "/hellia-rh-test-technique-3/service-worker.js",
+    "static/css/main.2334508b.chunk.css.map": "/hellia-rh-test-technique-3/static/css/main.2334508b.chunk.css.map",
+    "static/js/2.c9f0d68c.chunk.js.LICENSE.txt": "/hellia-rh-test-technique-3/static/js/2.c9f0d68c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.013cd739.js",
+    "static/js/2.c9f0d68c.chunk.js",
+    "static/css/main.2334508b.chunk.css",
+    "static/js/main.7cee5c6f.chunk.js"
+  ]
+}
